@@ -1,0 +1,18 @@
+
+package primeiroprograma;
+
+import java.util.Scanner;
+
+public class PrimeiroPrograma {
+
+    public static void main(String[] args) {
+
+         String nome = "";
+         Scanner lerTeclado = new Scanner(System.in);
+         
+         System.out.println("Usuario, digite o seu nome: ");
+         nome = lerTeclado.next();
+         System.out.println("O nome digitado eh: " + nome);
+    }
+
+}
